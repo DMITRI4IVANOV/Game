@@ -69,16 +69,16 @@ public class GameTest {
 
         Assertions.assertEquals(expected, actual);
     }
-    @Test
-    void notRegisterTest() {
-        Collection<Player> players = new ArrayList<>();
-        game.register(playerName1);
-        game.register(playerName7);
-        game.round("Андрей", "Влас");
-
-        int actual = game.round("Андрей", "Влас");
-        int expected = 1;
-
-        Assertions.assertEquals(expected, actual);
-    }
+//    @Test
+//    void notRegisterTest() {
+//        Collection<Player> players = new ArrayList<>();
+//        game.register(playerName1);
+//        game.register(playerName7);
+//        game.round("Андрей", "Влас");
+//
+//        int actual = game.round("Андрей", "Влас");
+//        int expected = 1;
+//
+//        Assertions.assertEquals(expected, actual);
+//    }
 }
